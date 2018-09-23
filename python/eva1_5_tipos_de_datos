@@ -1,0 +1,4 @@
+print("introduce tu nombre")
+sNombre = input()
+print("tu nombre es ", end='', flush=True)
+print(sNombre)

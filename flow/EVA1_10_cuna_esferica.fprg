@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="temporal2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-13 09:39:55 a. m."/>
+        <attribute name="created" value="dGVtcG9yYWwyO0xBQkExMzEwMTE7MjAxOC0wOS0xMzswOTozMjowNyBhLiBtLjsyOTQ3"/>
+        <attribute name="edited" value="dGVtcG9yYWwyO0xBQkExMzEwMTE7MjAxOC0wOS0xMzswOTozOTo1NSBhLiBtLjsxOzMwNjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;introduce R&quot;" newline="True"/>
+            <declare name="R" type="Real" array="False" size=""/>
+            <input variable="R"/>
+            <output expression="&quot;introduce n&quot;" newline="True"/>
+            <declare name="n" type="Real" array="False" size=""/>
+            <input variable="n"/>
+            <declare name="p" type="Integer" array="False" size=""/>
+            <assign variable="p" expression="3.1416"/>
+            <declare name="V" type="Real" array="False" size=""/>
+            <assign variable="V" expression="(4/3)*((p*R^3)/360)*n"/>
+            <output expression="&quot;el volumen es &quot;" newline="True"/>
+            <output expression="V" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

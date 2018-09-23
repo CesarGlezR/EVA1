@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="temporal2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-12 09:41:53 a. m."/>
+        <attribute name="created" value="dGVtcG9yYWwyO0xBQkExMzEwMTE7MjAxOC0wOS0xMjswOTowNzoyMyBhLiBtLjsyOTQ2"/>
+        <attribute name="edited" value="dGVtcG9yYWwyO0xBQkExMzEwMTE7MjAxOC0wOS0xMjswOTo0MTo1MyBhLiBtLjsxOzMwNTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;velocidad inicial&quot;" newline="True"/>
+            <declare name="rVI" type="Real" array="False" size=""/>
+            <input variable="rVI"/>
+            <output expression="&quot;velocidad final&quot;" newline="True"/>
+            <declare name="rVF" type="Real" array="False" size=""/>
+            <input variable="rVF"/>
+            <output expression="&quot;tiempo&quot;" newline="True"/>
+            <declare name="rT" type="Real" array="False" size=""/>
+            <input variable="rT"/>
+            <declare name="rD" type="Real" array="False" size=""/>
+            <assign variable="rD" expression="((rVI + rVF) / 2 ) * rT"/>
+            <output expression="&quot;La distancia es &quot;" newline="False"/>
+            <output expression="rD" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

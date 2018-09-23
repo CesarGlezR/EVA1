@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="temporal2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-19 09:43:36 a. m."/>
+        <attribute name="created" value="dGVtcG9yYWwyO0xBQkExMzEwMTI7MjAxOC0wOS0xOTswODo1MTo0MSBhLiBtLjsyOTUy"/>
+        <attribute name="edited" value="dGVtcG9yYWwyO0xBQkExMzEwMTI7MjAxOC0wOS0xOTswOTo0MzozNiBhLiBtLjsxOzMwNjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Que calificacion sacaste?&quot;" newline="True"/>
+            <declare name="rCalifa" type="Real" array="False" size=""/>
+            <input variable="rCalifa"/>
+            <output expression="&quot;Tu calificaion es&quot;" newline="True"/>
+            <output expression="rCalifa" newline="True"/>
+            <if expression="rCalifa&gt;=7">
+                <then>
+                    <output expression="&quot;Ya pasate&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;gg&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
